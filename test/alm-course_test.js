@@ -28,5 +28,9 @@ exports['welcomeMessage'] = {
   },
   'all tests': function(test) {
     //Create your test here!
+    test.equal(alm_course.sum(5,3),8, "Sum of 2 positive numbers");
+    test.equal(alm_course.sum(-5,3),-2, "Sum of a negative numbers");
+    test.equal(alm_course.sum(undefined,3),0, "Undefined + nr");
+    test.done();
   },
 };
