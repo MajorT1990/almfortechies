@@ -2,6 +2,7 @@
 
 Continuous integration server:
 https://travis-ci.org
+- travis
 
 Deployment server:
 https://heroku.com
